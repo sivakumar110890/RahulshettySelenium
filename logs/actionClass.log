@@ -1,0 +1,7 @@
+2023-09-20 07:30:57,789 [main] INFO  seleniumBasics.actionsDemo - Cursor moved to Sign-In option
+2023-09-20 07:31:04,665 [main] INFO  seleniumBasics.actionsDemo - Cursor moved to Searbox
+2023-09-20 07:31:06,391 [main] INFO  seleniumBasics.actionsDemo - Double click operation has been performed
+2023-09-24 19:43:08,773 [main] INFO  seleniumBasics.DragAndDropExample - Selected Browser is : firefox
+2023-09-24 19:43:45,195 [main] INFO  seleniumBasics.DragAndDropExample - Entered url is : https://jqueryui.com/droppable/
+2023-09-24 19:46:04,693 [main] INFO  seleniumBasics.DragAndDropExample - Selected Browser is : firefox
+2023-09-24 19:46:18,100 [main] INFO  seleniumBasics.DragAndDropExample - Entered url is : https://jqueryui.com/droppable/

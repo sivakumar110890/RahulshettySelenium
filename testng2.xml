@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Testing">
+<test name ="All test">
+ <classes>
+ <parameter name ="url" value="https://www.google.com"/> 
+ <class name="testNGExamples.TestingCarLoan"/>
+  <parameter name="url" value="https://PersonalLoan.com"></parameter>
+ <parameter name="MaximumLoanAmount" value="50000"></parameter>
+ <class name="testNGExamples.TestingPersonalLoan">
+ </class>
+ </classes>
+ </test>
+ </suite> <!-- Suite -->
