@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGExamples.TestingPersonalLoan">
+      <class name="seleniumBasics.DownloadAndUpload">
         <methods>
-          <include name="AfterSuite"/>
-          <include name="BeforeSuite"/>
-          <include name="AfterMethod"/>
-          <include name="MobileLoginPersonalLoan"/>
-          <include name="BeforeMethod"/>
+          <include name="upload1"/>
         </methods>
-      </class> <!-- testNGExamples.TestingPersonalLoan -->
+      </class> <!-- seleniumBasics.DownloadAndUpload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

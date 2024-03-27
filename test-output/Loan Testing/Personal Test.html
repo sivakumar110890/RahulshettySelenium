@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Personal Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Nov 26 11:22:37 IST 2023</td>
+<td>Started on:</td><td>Wed Mar 13 19:04:37 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (173 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (67 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -70,11 +70,45 @@ function toggleAllBoxes() {
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
+<tr>
+<td title='testNGExamples.TestingPersonalLoan.MobileNagivatetoDashboardPersonalLoan()'><b>MobileNagivatetoDashboardPersonalLoan</b><br>Test class: testNGExamples.TestingPersonalLoan</td>
+<td><div><pre>org.testng.TestNGException: 
+Method public void testNGExamples.TestingPersonalLoan.MobileNagivatetoDashboardPersonalLoan(java.lang.String,java.lang.String) requires a @DataProvider named : TestData
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace997079948", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace997079948'><pre>org.testng.TestNGException: 
+Method public void testNGExamples.TestingPersonalLoan.MobileNagivatetoDashboardPersonalLoan(java.lang.String,java.lang.String) requires a @DataProvider named : TestData
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:561)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:772)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>testNGExamples.TestingPersonalLoan@6e9175d8</td></tr>
 <tr>
 <td title='testNGExamples.TestingPersonalLoan.MobileLoginPersonalLoan()'><b>MobileLoginPersonalLoan</b><br>Test class: testNGExamples.TestingPersonalLoan</td>
 <td><div><pre>org.testng.TestNGException: 
@@ -85,39 +119,39 @@ in D:\java spring learning\RahulshettySelenium\testng.xml
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace669788126", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace669788126'><pre>org.testng.TestNGException: 
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1691523452", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1691523452'><pre>org.testng.TestNGException: 
 Parameter &apos;url&apos; is required by @Test on method MobileLoginPersonalLoan but has not been marked @Optional or defined
 in D:\java spring learning\RahulshettySelenium\testng.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at org.testng.internal.Parameters.createParams(Parameters.java:270)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
 <td>0</td>
-<td>testNGExamples.TestingPersonalLoan@8462f31</td></tr>
+<td>testNGExamples.TestingPersonalLoan@6e9175d8</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
@@ -126,27 +160,12 @@ in D:\java spring learning\RahulshettySelenium\testng.xml
 <td title='testNGExamples.TestingPersonalLoan.WebLoginPersonalLoan()'><b>WebLoginPersonalLoan</b><br>Test class: testNGExamples.TestingPersonalLoan</td>
 <td></td>
 <td>0</td>
-<td>testNGExamples.TestingPersonalLoan@8462f31</td></tr>
-<tr>
-<td title='testNGExamples.TestingPersonalLoan.MobileNagivatetoDashboardPersonalLoan()'><b>MobileNagivatetoDashboardPersonalLoan</b><br>Test class: testNGExamples.TestingPersonalLoan<br>Parameters: firstSetofUsername, firstSetofpassword</td>
-<td></td>
-<td>0</td>
-<td>testNGExamples.TestingPersonalLoan@8462f31</td></tr>
-<tr>
-<td title='testNGExamples.TestingPersonalLoan.MobileNagivatetoDashboardPersonalLoan()'><b>MobileNagivatetoDashboardPersonalLoan</b><br>Test class: testNGExamples.TestingPersonalLoan<br>Parameters: SecondSetofUsername, SecondSetofPassword</td>
-<td></td>
-<td>0</td>
-<td>testNGExamples.TestingPersonalLoan@8462f31</td></tr>
+<td>testNGExamples.TestingPersonalLoan@6e9175d8</td></tr>
 <tr>
 <td title='testNGExamples.TestingPersonalLoan.WebNagivatetoDashboardPersonalLoan()'><b>WebNagivatetoDashboardPersonalLoan</b><br>Test class: testNGExamples.TestingPersonalLoan</td>
 <td></td>
 <td>0</td>
-<td>testNGExamples.TestingPersonalLoan@8462f31</td></tr>
-<tr>
-<td title='testNGExamples.TestingPersonalLoan.MobileNagivatetoDashboardPersonalLoan()'><b>MobileNagivatetoDashboardPersonalLoan</b><br>Test class: testNGExamples.TestingPersonalLoan<br>Parameters: ThirdSetofUsername, ThirdSetofPassword</td>
-<td></td>
-<td>0</td>
-<td>testNGExamples.TestingPersonalLoan@8462f31</td></tr>
+<td>testNGExamples.TestingPersonalLoan@6e9175d8</td></tr>
 </table><p>
 </body>
 </html>

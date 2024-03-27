@@ -13,6 +13,7 @@
           <include name="AfterMethod"/>
           <include name="MobileLoginPersonalLoan"/>
           <include name="BeforeMethod"/>
+          <include name="MobileNagivatetoDashboardPersonalLoan"/>
         </methods>
       </class> <!-- testNGExamples.TestingPersonalLoan -->
     </classes>

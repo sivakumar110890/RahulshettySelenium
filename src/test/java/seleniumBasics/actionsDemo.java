@@ -13,6 +13,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.v120.runtime.Runtime;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 
@@ -22,8 +23,8 @@ public class actionsDemo {
 	public static Logger log;
 
 	public static void main(String[] args) throws IOException, InterruptedException {
-		PropertyConfigurator.configure(System.getProperty("user.dir")+"\\config\\log4j.properties");
-		log=Logger.getLogger(actionsDemo.class);
+		PropertyConfigurator.configure(System.getProperty("user.dir") + "\\config\\log4j.properties");
+		log = Logger.getLogger(actionsDemo.class);
 		propertyFileLoader();
 		String url = prop.getProperty("actionDemoUrl");
 		String browser = prop.getProperty("browser");
@@ -41,7 +42,8 @@ public class actionsDemo {
 		Thread.sleep(5000);
 		mouseOverToSearchBox(driver);
 		Thread.sleep(5000);
-		//driver.quit();
+		// driver.quit();
+
 	}
 
 	public static void mouseHoverToHelloSignIn(WebDriver driver) { // this actions moves the mouse to target area
@@ -50,15 +52,15 @@ public class actionsDemo {
 		actions.moveToElement(signIn).build().perform();
 		log.info("Cursor moved to Sign-In option");
 	}
-	
+
 	public static void mouseOverToSearchBox(WebDriver driver) {
-		WebElement searchInput=driver.findElement(By.id("twotabsearchtextbox"));
+		WebElement searchInput = driver.findElement(By.id("twotabsearchtextbox"));
 		Actions actionsSearch = new Actions(driver);
 		actionsSearch.moveToElement(searchInput);
 		log.info("Cursor moved to Searbox");
 		actionsSearch.keyDown(Keys.SHIFT).sendKeys("mobiles").doubleClick().build().perform();
 		log.info("Double click operation has been performed");
-		
+
 	}
 
 	public static Properties propertyFileLoader() throws IOException {
