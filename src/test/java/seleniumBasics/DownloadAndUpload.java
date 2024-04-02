@@ -76,7 +76,7 @@ public class DownloadAndUpload {
 		WebElement AppleElement = driver.findElement(By.xpath("//div[text()='" + FruitName
 				+ "']/parent::div/parent::div/div[@id='cell-" + AttributeofPrice + "-undefined']"));
 		String PriceofTheApple = AppleElement.getText();
-		System.out.println("Actual price of the" + FruitName + " is " + PriceofTheApple);
+		System.out.println("Actual price of the " + FruitName + " is " + PriceofTheApple);
 		Assert.assertEquals("303", PriceofTheApple);
 
 		driver.close();
