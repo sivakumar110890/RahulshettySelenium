@@ -56,8 +56,5 @@ public class FindtheLetters {
 		{
 			f.startsWith("A");
 			return true;
-		}}.count();
-
+		}}
 }
-}
-
